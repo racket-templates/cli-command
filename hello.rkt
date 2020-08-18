@@ -31,12 +31,16 @@
 ;; http://docs.racket-lang.org/style/index.html
 
 ;; Code here
-(require racket/cmdline)
+(require racket/cmdline racket/port)
 (define who (box "world"))
+(define (pipediput)
+  (for ([line (port->lines)])
+  (printf "hello ~a~n" line)))
 (command-line
- #:program "my-program"
- #:once-each
+ #:program "Greeter"
+ #:once-any
  [("-n" "--name") name "Who to say hello to" (set-box! who name)]
+ [("-p" "--pipe") "greet piped list" (pipediput)]
  #:args ()
  (printf "hello ~a~n" (unbox who)))
 
