@@ -1,7 +1,7 @@
 cli-command
 ===========
 
-An template for a CLI command.
+A working example of CLI command you can use to create your own command line app.
 
 # How To Install
 
@@ -20,6 +20,8 @@ If you omit `<destination-dir>`, the command will add copy the template to a fol
 # How to use
 
 This is working example that you can change to suit your needs.
+
+If you need to create an interactive app consider using the [`charterm`](https://docs.racket-lang.org/charterm/index.html) package.
 
 # How to create an executable 
 
