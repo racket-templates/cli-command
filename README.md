@@ -37,3 +37,12 @@ For help
 Creating executables: https://docs.racket-lang.org/raco/exe.html
 
 Command-line parsing: https://docs.racket-lang.org/reference/Command-Line_Parsing.html
+
+### Testing command-line parsing: 
+
+Use the DrRacket `drracket-cmdline-args` plugig: https://docs.racket-lang.org/drracket-cmdline-args/
+
+Install:  `raco pkg install drracket-cmdline-args`
+
+![drracket-cmdline-args](https://docs.racket-lang.org/drracket-cmdline-args/screenshot.png)
+
