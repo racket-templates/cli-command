@@ -40,7 +40,7 @@ Command-line parsing: https://docs.racket-lang.org/reference/Command-Line_Parsin
 
 ### Testing command-line parsing: 
 
-Use the DrRacket `drracket-cmdline-args` plugig: https://docs.racket-lang.org/drracket-cmdline-args/
+Use the DrRacket `drracket-cmdline-args` plugin: https://docs.racket-lang.org/drracket-cmdline-args/
 
 Install:  `raco pkg install drracket-cmdline-args`
 
