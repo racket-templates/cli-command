@@ -49,4 +49,3 @@ Use the DrRacket `drracket-cmdline-args` plugin: https://docs.racket-lang.org/dr
 Install:  `raco pkg install drracket-cmdline-args`
 
 ![drracket-cmdline-args](https://docs.racket-lang.org/drracket-cmdline-args/screenshot.png)
-
